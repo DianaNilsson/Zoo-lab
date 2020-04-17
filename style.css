@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.main-header {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-header img {
+    width: 100%;
+}
+
+.main-container {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.form-container {
+    width: 24rem;
+    margin: 2rem auto 3rem;
+    padding: 1rem;
+    border: 2px solid #2A7B1E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: left;
+    font-weight: 500;
+}
+
+.form-container select {
+    padding: 0.2rem;
+    border: 1px solid #38A307;
+    border-radius: 3px;
+    margin: 0.2rem 0 1rem;
+    font-size: 1em;
+}
+
+.form-container input[type=text] {
+    padding: 0.2rem;
+    border: 1px solid #38A307;
+    border-radius: 3px;
+    margin: 0.2rem 0 1rem;
+    font-size: 1em;
+}
+
+.form-container input[type=submit] {
+    padding: 0.2rem;
+    border: 1px solid #38A307;
+    border-radius: 5px;
+    background-color: #38A307;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.form-container input[type=file] {
+    border-radius: 3px;
+    margin: 0.4rem 0 1.6rem;
+    font-size: 1em;
+}
+
+.result-container {
+    width: 24rem;
+    margin: 2rem auto 4rem;
+    /* padding: 1rem;
+    border: 2px solid #F2B90C;
+    border-radius: 5px; */
+}
+
+.default-result,
+.unvalid-result {
+    width: 24rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 1px solid #2A7B1E;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0.6rem 0;
+}
+
+.flex-item-header {
+    width: 33%;
+    text-align: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    border: 1px solid #dba70a;
+    background-color: #dba70a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.flex-item {
+    width: 33%;
+    text-align: center;
+    margin: 0.1rem;
+    padding: 0.1rem 0.2rem;
+    border: 1px solid #38A307;
+    border-radius: 5px;
+}
+
+
+.main-footer {
+    height: 3rem;
+    padding: 1rem;
+    background-color: #2A7B1E;
+    margin-top: 4rem;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+}
